@@ -13,7 +13,7 @@ Each topic lives in its own numbered folder with a short explanation, working co
 
 | # | Topic | Folder |
 | --- | --- | --- |
-| | *None yet* | |
+| 01 | Design patterns: 15 patterns in realistic Python | [`01-design-patterns`](01-design-patterns/) |
 
 ## Running the code
 
