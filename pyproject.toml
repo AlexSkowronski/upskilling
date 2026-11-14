@@ -1,0 +1,24 @@
+[project]
+name = "upskilling"
+version = "0.1.0"
+description = "Small Python projects for learning software design and architecture"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = ["."]
+norecursedirs = [".*", "__pycache__", "build", "dist"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
